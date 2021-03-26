@@ -18,6 +18,9 @@ https://github.com/TheBrainFamily/cypress-cucumber-preprocessor/issues/482
 
 https://github.com/uLucasFraga/cy_cucumber_for_studies
 
+https://gitter.im/
+
+
 
 # Passo-a-passo para instalar o cypress e cucumber do zero até a criação de features e steps
 Setup
