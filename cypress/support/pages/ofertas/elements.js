@@ -1,6 +1,6 @@
 class OfertaElements {
   wrapper = () => {
-    return '[class="ub-emb-close"]';
+    return 'button[class="ub-emb-close"]';
   };
 
   botaoDropSelect = () => {

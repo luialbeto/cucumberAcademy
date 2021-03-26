@@ -1,6 +1,5 @@
 {
   "cypress-cucumber-preprocessor": {
-    "nonGlobalStepDefinitions": false,
-    "step_definitions": "cypress/integration/academy/steps.js"
+    "nonGlobalStepDefinitions": true
   }
 }

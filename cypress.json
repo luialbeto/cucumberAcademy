@@ -1,1 +1,4 @@
-{ "testFiles": "**/*.feature" }
+{
+  "testFiles": "**/*.feature",
+  "baseUrl": "https://www.gama.academy/"
+}

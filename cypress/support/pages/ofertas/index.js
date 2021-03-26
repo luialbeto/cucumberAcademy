@@ -2,17 +2,17 @@
 
 import OfertaElements from './elements';
 const ofertaElements = new OfertaElements();
-const url = Cypress.config("baseUrl");
+const url = Cypress.config('baseUrl');
 
-  class OfertaPage {
+class OfertaPage {
   // Acessa o site
   acessarSite() {
-    cy.visit(url);
+    cy.visit('/');
   }
 
   // clicar no botão wrapper
   clicarWrapper() {
-    cy.get(ofertaElements.wrapper()).click();
+    cy.get(ofertaElements.wrapper()).click({ multiple: true });
   }
 
   // Clica no select
@@ -20,8 +20,8 @@ const url = Cypress.config("baseUrl");
     cy.get(ofertaElements.botaoDropSelect()).click({ force: true });
   }
 
-  clicarBotaoFullStack() {
-    cy.get(ofertaElements.botaoFullStack()).click();
+  clicarBotaoFullStack(opcoes) {
+    cy.get(ofertaElements.botaoFullStack()).click().contains(opcoes); 
   }
 }
 
